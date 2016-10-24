@@ -18,7 +18,7 @@ public final class CredentialsPersistenceManager {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(CredentialsPersistenceManager.class);
 
-    private final File credentialsFile;
+    private  File credentialsFile="gradle.encrypted.properties";
 
     public CredentialsPersistenceManager(File credentialsFile) {
         this.credentialsFile = credentialsFile;
